@@ -18,9 +18,40 @@ https://templatemo.com/tm-547-real-dynamic
     Light gray: #F2F2F2 - Box color
     Dark gray: #68696A - Testimonial title color
 */
+@charset "UTF-8";
+
+@font-face{
+  font-family: "Bold";
+  src: url("../Fonts/DM_Sans/DMSans-Bold.ttf");
+}
+
+@font-face{
+  font-family: "Medium";
+  src: url("../Fonts/DM_Sans/DMSans-Medium.ttf");
+}
+@font-face{
+  font-family: "Navbar";
+  src: url("../Fonts/Montserrat/Montserrat-Regular.ttf");
+}
+
+@font-face{
+  font-family: "Medium";
+  src: url("../Fonts/DM_Sans/DMSans-Medium.ttf");
+}
+
+
+@font-face{
+  font-family: "Regular";
+  src: url("../Fonts/DM_Sans/DMSans-Regular.ttf");
+}
+
+@font-face{
+  font-family: "Bold";
+  src: url("../Fonts/DM_Sans/DMSans-Bold.ttf");
+}
+
 
 body {
-  font-family: 'Lato', Arial, sans-serif;
   font-size: 20px;
   overflow-x: hidden;
   background-color: #323232;  
@@ -35,7 +66,8 @@ a:hover { text-decoration: none; }
 button:focus { outline: none; }
 
 p, address {
-  color: #666;
+  font-family: 'Medium';
+  color: black;
   line-height: 1.9;    
 }
 
@@ -113,12 +145,12 @@ ul { line-height: 2; }
 }
 
 .tm-intro-text { font-size: 2.6rem; }
-.tm-text-primary { color:  rgb(9, 180, 46); }
+.tm-text-primary { color:   rgb(39, 134, 143); font-family: 'Bold'; text-transform: uppercase;}
 .tm-text-dark-gray { color: #68696A; }
 
 .tm-my-1 {
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
 
 .tm-mb-1 { margin-bottom: 100px; }
@@ -678,14 +710,7 @@ select:not([multiple]) {
 
     .tm-nav {        
         position: relative;
-        max-width: 200px;
-    }
-
-    #navbarNav {
-        position: absolute;
-        right: 16px;
-        top: 46px;
-        z-index: 1000;
+        margin-top: 10px;
     }
 
     .tm-nav ul {
@@ -748,5 +773,21 @@ select:not([multiple]) {
   .tm-page-col-right {
     padding-left: 0;
     padding-right: 0;
+  
   }
+}
+
+#navbarT {
+  color: white;
+  font-family: 'Navbar';
+  text-transform: capitalize;
+  }
+
+  #navbarR {
+    font-family: "Navbar";
+    font-size: xx-large;
+}
+
+body {
+    font-family: 'Regular';
 }

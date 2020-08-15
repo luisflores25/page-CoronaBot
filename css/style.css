@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+@font-face{
+    font-family: "Navbar";
+    src: url("../Fonts/Montserrat/Montserrat-Regular.ttf");
+}
+
+@font-face{
+    font-family: "Medium";
+    src: url("../Fonts/DM_Sans/DMSans-Medium.ttf");
+}
+
+
+@font-face{
+    font-family: "Regular";
+    src: url("../Fonts/DM_Sans/DMSans-Regular.ttf");
+}
+
+@font-face{
+    font-family: "Bold";
+    src: url("../Fonts/DM_Sans/DMSans-Bold.ttf");
+}
+
+#navbarR {
+    font-family: "Navbar";
+}
+
+body {
+    font-family: 'Regular';
+}
+
+#navbarT {
+    font-family: 'Navbar';
+    font-size: 100px;
+    color: white;
+}
+
